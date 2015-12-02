@@ -1,0 +1,48 @@
+a:link {color:rgba(181,179,181,0.85); text-decoration: none;}      /* unvisited link */
+a:visited {color:rgba(181,179,181,0.85); text-decoration: none;}  /* visited link */
+a:hover {color:#000000; text-decoration: none;}  /* mouse over link */
+a:active {color:#ed6800; text-decoration: none;}  /* selected link */
+
+body {
+	font-family: arial;
+	background-color: white;
+}
+
+#currentPage a:link{
+	color: black !important;
+}
+
+#logo {
+	float: left;
+}
+
+.menubar {
+	margin: 10px;
+	float: left;
+	font-family: 'Tauri', sans-serif;
+	width: 35%;
+	color:rgba(181,179,181,0.85);
+}
+
+#fadeshow1 {
+	float: left;
+	margin: 10px;
+}
+
+
+.menubar, .fadeshow1 {
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+
+#social {
+	float: left;
+}
+
+.title {
+	font-family: 'Tauri', sans-serif;
+	font-size: 16px;
+	float:left;
+	padding: 6px
+}
